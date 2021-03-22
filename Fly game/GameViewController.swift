@@ -40,7 +40,7 @@ class GameViewController: UIViewController {
         
         // animate the 3d object
         //ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
-        ship.runAction(.move(to: SCNVector3(), duration: 5)) {
+        ship.runAction(.move(to: SCNVector3(), duration: duration)) {
             self.ship.isHidden = true
             DispatchQueue.main.async {
                 self.button.isHidden = false
