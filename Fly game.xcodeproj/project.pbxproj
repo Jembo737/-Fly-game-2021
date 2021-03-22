@@ -12,6 +12,8 @@
 		D9FD04D12607E7CA003C6416 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD04D02607E7CA003C6416 /* GameViewController.swift */; };
 		D9FD04D42607E7CA003C6416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD04D22607E7CA003C6416 /* Main.storyboard */; };
 		D9FD04D62607E7CC003C6416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FD04D52607E7CC003C6416 /* Assets.xcassets */; };
+		D9FD04E026081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.15.png in Resources */ = {isa = PBXBuildFile; fileRef = D9FD04DE26081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.15.png */; };
+		D9FD04E126081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.45.png in Resources */ = {isa = PBXBuildFile; fileRef = D9FD04DF26081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.45.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D9FD04D32607E7CA003C6416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9FD04D52607E7CC003C6416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9FD04D72607E7CC003C6416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FD04DE26081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.15.png"; sourceTree = "<group>"; };
+		D9FD04DF26081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.45.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				D9FD04CC2607E7CA003C6416 /* AppDelegate.swift */,
 				D9FD04CE2607E7CA003C6416 /* art.scnassets */,
-				D9FD04D02607E7CA003C6416 /* GameViewController.swift */,
-				D9FD04D22607E7CA003C6416 /* Main.storyboard */,
 				D9FD04D52607E7CC003C6416 /* Assets.xcassets */,
+				D9FD04D02607E7CA003C6416 /* GameViewController.swift */,
 				D9FD04D72607E7CC003C6416 /* Info.plist */,
+				D9FD04D22607E7CA003C6416 /* Main.storyboard */,
+				D9FD04E326081B87003C6416 /* Screenshots */,
 			);
 			path = "Fly game";
+			sourceTree = "<group>";
+		};
+		D9FD04E326081B87003C6416 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD04DE26081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.15.png */,
+				D9FD04DF26081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.45.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FD04E126081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.45.png in Resources */,
 				D9FD04CF2607E7CA003C6416 /* art.scnassets in Resources */,
+				D9FD04E026081B75003C6416 /* Simulator Screen Shot - iPhone 12 Pro - 2021-03-22 at 03.23.15.png in Resources */,
 				D9FD04D62607E7CC003C6416 /* Assets.xcassets in Resources */,
 				D9FD04D42607E7CA003C6416 /* Main.storyboard in Resources */,
 			);
